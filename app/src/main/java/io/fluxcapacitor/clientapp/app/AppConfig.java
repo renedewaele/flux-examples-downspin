@@ -23,7 +23,7 @@ public class AppConfig {
     @ConditionalOnProperty("endpoint.messaging")
     public Client fluxCapacitorClient() {
         return WebSocketClient.newInstance(WebSocketClient.ClientConfig.builder().name("app")
-                                                   .projectId("bank")
+                                                   .projectId("downspin")
                                                    .serviceBaseUrl(getProperty("endpoint.messaging")).build());
     }
 

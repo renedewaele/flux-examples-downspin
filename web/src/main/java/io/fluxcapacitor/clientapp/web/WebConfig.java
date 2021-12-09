@@ -21,8 +21,8 @@ public class WebConfig {
     @Bean
     @ConditionalOnProperty("endpoint.messaging")
     public Client fluxCapacitorClient() {
-        return WebSocketClient.newInstance(WebSocketClient.Properties.builder().name("web")
-                                                   .projectId("bank")
+        return WebSocketClient.newInstance(WebSocketClient.ClientConfig.builder().name("web")
+                                                   .projectId("downspin")
                                                    .serviceBaseUrl(getProperty("endpoint.messaging")).build());
     }
 

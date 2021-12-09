@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.flux-capacitor.examples</groupId>
-    <artifactId>flux-examples-bank</artifactId>
+    <artifactId>flux-examples-downspin</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
@@ -15,12 +15,15 @@
     </modules>
 
     <name>Flux Capacitor app</name>
-    <description>Basic banking app that uses Flux Capacitor</description>
-    <url>https://github.com/flux-capacitor-io/flux-examples-bank</url>
+    <description>Basic game app that uses Flux Capacitor</description>
+    <url>https://github.com/renedewaele/flux-examples-downspin</url>
 
     <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <flux-capacitor.version>0.387.0</flux-capacitor.version>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <flux-capacitor.version>0.406.0</flux-capacitor.version>
     </properties>
 
     <dependencies>

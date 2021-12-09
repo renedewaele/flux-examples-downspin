@@ -1,18 +1,5 @@
-# Flux Capacitor bank
-Basic example of a banking application that uses Flux Capacitor.
-
-## What it does
-The application manages bank accounts and their transactions. Other than events and messages stored in Flux Capacitor
-the application needs no database. Bank accounts are event sourced anytime they're needed.
-
-The application shows how you can safely transfer money between 2 accounts, with a side-effect free
- autocorrecting mechanism if the transfer should fail.
-
- To demonstrate scheduling of messages it also includes a component that manages the lifecycle of bank accounts.
- New accounts that are inactive for a long time are automatically closed.
-
- For more information about the features of Flux Capacitor check out:
- <https://github.com/flux-capacitor-io/flux-capacitor-client>.
+# Flux Capacitor down spin (onderuit)
+Basic example of a game application that uses Flux Capacitor.
 
 ## The setup
 A docker compose file configures the setup.
